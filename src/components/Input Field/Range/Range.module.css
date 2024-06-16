@@ -1,0 +1,56 @@
+.rangeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rangeBoxTextA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rangeBoxTextA > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.rangeBoxTextA p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--def-color);
+}
+
+.rangeInput {
+  appearance: none;
+  outline: none;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.rangeInput::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  cursor: pointer;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  box-shadow: -410px 0 0 400px var(--def-color);
+}
+
+@media screen and (max-width: 500px) {
+  .rangeInput {
+    height: 10px;
+  }
+
+  .rangeInput::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    box-shadow: -410px 0 0 405px var(--def-color);
+  }
+
+  .rangeBoxTextA > h1 {
+    font-size: 1.3rem;
+  }
+}

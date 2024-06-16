@@ -1,0 +1,44 @@
+.boardArea {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+.boardArea > h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.icon {
+  cursor: pointer;
+  font-size: 1.8rem;
+
+  color: var(--def-color);
+}
+
+.icon2 {
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: var(--def-color);
+}
+.markWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.markWrapper h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--def-color);
+}
+
+@media screen and (max-width: 500px) {
+  .boardArea {
+    height: 40px;
+  }
+}

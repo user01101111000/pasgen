@@ -1,0 +1,51 @@
+:root {
+  --indicator-Mcolor: #f8cc62;
+  --indicator-Lcolor: #ed2c49;
+  --indicator-Scolor: #09bb3d;
+}
+
+.strengthArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 1rem;
+}
+.strengthArea > h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color);
+  opacity: 0.4;
+}
+
+.strengthBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.strengthBox > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.strengthIndicators {
+  display: flex;
+  gap: 0.7rem;
+}
+.indicator {
+  width: 10px;
+  height: 30px;
+  border: thin solid var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+  .strengthArea > h1 {
+    font-size: 1rem;
+  }
+  .strengthBox > h1 {
+    font-size: 1.2rem;
+  }
+}

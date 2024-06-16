@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
+
+:root {
+  font-family: "M PLUS 1 Code", monospace;
+
+  --main-color: #111115;
+  --primary-color: #24232a;
+
+  --def-color: #a5ffaf;
+  --text-color: #e6e5ea;
+
+  user-select: none;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 10px !important;
+  }
+}

@@ -1,0 +1,23 @@
+.generate {
+  height: 60px;
+  border: thin solid transparent;
+  outline: none;
+  background-color: var(--def-color);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.generate:hover {
+  background-color: transparent;
+  border: thin solid var(--def-color);
+  color: var(--def-color);
+}
+
+@media screen and (max-width: 500px) {
+  .generate {
+    height: 40px;
+  }
+}

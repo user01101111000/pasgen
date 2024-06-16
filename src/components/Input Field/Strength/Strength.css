@@ -1,0 +1,148 @@
+:root {
+  --indicator-Mcolor: #f8cc62;
+  --indicator-Lcolor: #ed2c49;
+  --indicator-Scolor: #09bb3d;
+}
+
+.strengthArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  padding: 1rem;
+}
+.strengthArea > h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color);
+  opacity: 0.4;
+}
+
+.strengthBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.strengthBox > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.strengthIndicators {
+  display: flex;
+  gap: 0.7rem;
+}
+.indicator {
+  width: 10px;
+  height: 30px;
+  border: thin solid var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.l1 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Lcolor);
+  cursor: pointer;
+}
+.l2 {
+  width: 10px;
+  height: 30px;
+  border: thin solid var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.l3 {
+  width: 10px;
+  height: 30px;
+  border: thin solid var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.m1 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Mcolor);
+  cursor: pointer;
+}
+.m2 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Mcolor);
+  cursor: pointer;
+}
+.m3 {
+  width: 10px;
+  height: 30px;
+  border: thin solid var(--text-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.s1 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Scolor);
+  cursor: pointer;
+}
+.s2 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Scolor);
+  cursor: pointer;
+}
+.s3 {
+  width: 10px;
+  height: 30px;
+  border: thin solid transparent;
+  background-color: var(--indicator-Scolor);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+  .l1 {
+    width: 6px;
+    height: 20px;
+  }
+  .l2 {
+    width: 6px;
+    height: 20px;
+  }
+  .l3 {
+    width: 6px;
+    height: 20px;
+  }
+
+  .m1 {
+    width: 6px;
+    height: 20px;
+  }
+  .m2 {
+    width: 6px;
+    height: 20px;
+  }
+  .m3 {
+    width: 6px;
+    height: 20px;
+  }
+
+  .s1 {
+    width: 6px;
+    height: 20px;
+  }
+  .s2 {
+    width: 6px;
+    height: 20px;
+  }
+  .s3 {
+    width: 6px;
+    height: 20px;
+  }
+}

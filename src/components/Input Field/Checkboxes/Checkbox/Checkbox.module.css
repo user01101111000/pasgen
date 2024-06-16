@@ -1,0 +1,39 @@
+.labelBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.checkBox {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: thin solid var(--text-color);
+  position: relative;
+}
+.checkBox:checked {
+  border: thin solid transparent;
+  background-color: var(--def-color);
+  transition: all 0.5s;
+}
+
+.checkBox::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  content: "✔️";
+  font-size: 0.7rem;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.checkBox:checked::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.labelBox h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
