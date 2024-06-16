@@ -7,13 +7,25 @@
   font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .generate:hover {
   background-color: transparent;
   border: thin solid var(--def-color);
   color: var(--def-color);
+}
+
+.icon {
+  transition: all 0.5s;
+}
+
+.generate:hover .icon {
+  transform: translateX(10px) rotate(360deg);
 }
 
 @media screen and (max-width: 500px) {

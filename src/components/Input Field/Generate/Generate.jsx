@@ -1,5 +1,10 @@
 import style from "./Generate.module.css";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Generate() {
-  return <input type="submit" value="Generate 🠚" className={style.generate} />;
+  return (
+    <button className={style.generate}>
+      Generate <FaArrowRightLong className={style.icon} />
+    </button>
+  );
 }
