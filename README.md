@@ -1,6 +1,6 @@
 ## React Paswo Geneus (Password Generator)
 
-### [Preview Link](https://github.com/)
+### [Preview Link](https://react-paswo.vercel.app/)
 
 #### Screenshots :
 
