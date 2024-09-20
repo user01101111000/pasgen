@@ -1,21 +1,12 @@
-## React Paswo Geneus (Password Generator)
+<div align="center">
+<img src ="/src/assets/images/PASGENTEXT.png" alt="pasgen" width="30%" title='pasgen' />
+</div>
 
-### [Preview Link](https://react-paswo.vercel.app/)
+</br>
+ 
+ You are looking for a password for your account but you can't find it or your friends guess the password you found is correct. Let's find a solution to this problem, create and use the password you want with just one click.
 
-#### Screenshots :
+</br>
 
-1.
-
-![img1](src/assets/design/1.png)
-
-2.
-
-![img2](src/assets/design/2.png)
-
-3.
-
-![img3](src/assets/design/3.png)
-
-4. Mobile : 
-
-![img4](src/assets/design/4.png)
+<div align="center"><img src ="/src/assets/images/PASGEN.png" alt="pasgen" width="100%" title='pasgen' />
+</div>

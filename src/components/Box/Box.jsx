@@ -5,7 +5,7 @@ import Board from "../Board/Board";
 export default function Box() {
   return (
     <article className={style.box}>
-      <h1>Paswo Geneus (Password Generator)</h1>
+      <h1>PASGEN</h1>
 
       <Board />
 
